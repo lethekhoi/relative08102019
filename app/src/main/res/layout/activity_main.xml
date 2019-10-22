@@ -4,22 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
 
-    <Button
+    <TextView
+        android:id="@+id/red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/buttonView2"
-        android:text="View 1" />
+        android:background="#f00"
+        android:text="RED"
+        android:textSize="40sp" />
 
-    <Button
-        android:id="@+id/buttonView2"
+    <TextView
+        android:id="@+id/green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="View 2" />
+        android:layout_below="@id/red"
+        android:background="#3FCC26"
+        android:text="Green"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/green"
+        android:background="#0D53E0"
+        android:text="Blue"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue"
+        android:background="#F18A1B"
+        android:text="Orange"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/gray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orange"
+        android:background="#8C918A"
+        android:text="Gray"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gray"
+        android:background="#E92FD0"
+        android:text="Pink"
+        android:textSize="40sp" />
 
 
 </RelativeLayout>

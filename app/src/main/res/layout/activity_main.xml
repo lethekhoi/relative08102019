@@ -10,61 +10,16 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/buttonView2"
         android:text="View 1" />
 
     <Button
+        android:id="@+id/buttonView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:text="View 2" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="View 3" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:text="View 4" />
-
-
-    <Button
-        android:id="@+id/buttonView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="View 5" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/buttonView5"
-        android:layout_toLeftOf="@id/buttonView5"
-        android:text="View 6" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/buttonView5"
-        android:layout_toRightOf="@id/buttonView5"
-        android:text="View 7" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buttonView5"
-        android:layout_toLeftOf="@id/buttonView5"
-        android:text="View 8" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buttonView5"
-        android:layout_toRightOf="@id/buttonView5"
-        android:text="View 9" />
 
 </RelativeLayout>
